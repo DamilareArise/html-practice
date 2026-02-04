@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Practice Blog</title>
+  </head>
+  <body style="font-family: sans-serif; background-color: #f4f4f4; margin: 0">
+    
+    <!-- Header Section -->
+    <div style="background-color: #333; color: white; padding: 20px; text-align: center;">
+      <h1 style="margin: 0; font-size: 32px;">The Dev Journey</h1>
+      <p style="margin: 5px 0; color: #ccc;">Learning HTML & CSS one step at a time</p>
+      
+      <!-- Navigation Menu using Inline-Block -->
+      <div style="margin-top: 15px;">
+        <a href="#" style="color: white; text-decoration: none; padding: 10px 15px; display: inline-block; background-color: #555; border-radius: 4px;">Home</a>
+        <a href="#" style="color: white; text-decoration: none; padding: 10px 15px; display: inline-block; background-color: #555; border-radius: 4px; margin: 0 5px;">About</a>
+        <a href="#" style="color: white; text-decoration: none; padding: 10px 15px; display: inline-block; background-color: #555; border-radius: 4px;">Contact</a>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div style="margin: 30px auto; width: 50%;">
+      
+      <!-- Main Content Column -->
+      <div style="background-color: white; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
+        
+        <!-- Blog Post 1 -->
+        <h2 style="color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px;">Understanding Inline CSS</h2>
+        <p style="color: #888; font-size: 14px;">Published on Oct 24, 2026 by <strong>Admin</strong></p>
+        <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Coding Image" style="width: 100%; height: auto; border-radius: 4px; margin-bottom: 15px;">
+        <p style="line-height: 1.6; color: #444; text-align: justify;">
+          Inline CSS is a way to style HTML elements directly within the tag. While it's not the best for large projects, it's great for quick tests and understanding how styles apply to specific elements. Remember, we are not using complex layouts like Flexbox yet, but we can still make things look good!
+        </p>
+        <a href="#" style="display: inline-block; text-decoration: none; background-color: dodgerblue; color: white; padding: 10px 20px; border-radius: 4px; margin-top: 10px;">Read Full Article</a>
+
+        <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+
+        <!-- Blog Post 2 -->
+        <h2 style="color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px;">Why HTML Structure Matters</h2>
+        <p style="color: #888; font-size: 14px;">Published on Oct 23, 2026 by <strong>Admin</strong></p>
+        <p style="line-height: 1.6; color: #444; text-align: justify;">
+          Before diving into fancy styles, having a solid HTML structure is key. Using the right tags for headers, paragraphs, and lists makes your website accessible and easy to read. In this post, we explore the importance of semantic HTML.
+        </p>
+        <a href="#" style="display: inline-block; text-decoration: none; background-color: dodgerblue; color: white; padding: 10px 20px; border-radius: 4px; margin-top: 10px;">Read Full Article</a>
+
+        <!-- Comments Section (Simple Form) -->
+        <!-- <div style="margin-top: 50px; background-color: #f9f9f9; padding: 20px; border-radius: 5px;">
+          <h3 style="margin-top: 0;">Leave a Comment</h3>
+          <form>
+            <div style="margin-bottom: 15px;">
+              <label style="display: block; margin-bottom: 5px; font-weight: bold;">Name:</label>
+              <input type="text" placeholder="Your Name" style="width: 95%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label style="display: block; margin-bottom: 5px; font-weight: bold;">Comment:</label>
+              <textarea rows="4" placeholder="Write your thoughts..." style="width: 95%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+            </div>
+            <button type="button" style="background-color: #27ae60; color: white; border: none; padding: 10px 25px; font-size: 16px; border-radius: 4px; cursor: pointer;">Submit Comment</button>
+          </form>
+        </div> -->
+      </div>
+
+      
+      <!-- Note: Generally, main + sidebar width should be < 100% to account for whitespace between inline-blocks -->
+      <!-- <div style="display: inline-block; width: 30%; vertical-align: top; margin-left: 2%; background-color: white; padding: 20px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+        
+        <div style="text-align: center; margin-bottom: 30px;">
+          <img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Author" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #eee;">
+          <h3 style="margin: 10px 0 5px;">Damilare</h3>
+          <p style="color: #666; font-size: 14px;">Software Engineer & Instructor</p>
+          <p style="font-size: 13px; color: #888;">Sharing knowledge about web development and technology.</p>
+        </div>
+
+        <div style="border-top: 1px solid #eee; padding-top: 20px;">
+          <h4 style="margin-top: 0;">Categories</h4>
+          <ul style="list-style-type: none; padding: 0;">
+            <li style="margin-bottom: 10px; border-bottom: 1px dashed #eee; padding-bottom: 5px;"><a href="#" style="text-decoration: none; color: #333;">HTML5 Tutorials</a></li>
+            <li style="margin-bottom: 10px; border-bottom: 1px dashed #eee; padding-bottom: 5px;"><a href="#" style="text-decoration: none; color: #333;">CSS Basics</a></li>
+            <li style="margin-bottom: 10px; border-bottom: 1px dashed #eee; padding-bottom: 5px;"><a href="#" style="text-decoration: none; color: #333;">Web Design</a></li>
+          </ul>
+        </div>
+
+        <div style="margin-top: 30px; background-color: #e8f4fc; padding: 15px; border-radius: 4px; border: 1px solid #b6d4fe;">
+          <h4 style="margin-top: 0; color: #004085;">Tip of the day</h4>
+          <p style="font-size: 14px; color: #004085; line-height: 1.4;">
+            Always use "alt" tags for your images to improve accessibility and SEO!
+          </p>
+        </div> -->
+
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div style="background-color: #333; color: white; padding: 20px; text-align: center; margin-top: 50px;">
+      <p>&copy; 2026 My Practice Blog. All rights reserved.</p>
+    </div>
+
+  </body>
+</html>
